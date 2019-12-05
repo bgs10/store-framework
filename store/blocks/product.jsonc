@@ -3,7 +3,8 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
-      "shelf.relatedProducts"
+      "shelf.relatedProducts",
+      "sku-selector"
     ]
   },
   "flex-layout.row#main": { 
@@ -41,8 +42,7 @@
   "stack-layout#brand": {
     "children": [
       "product-images",
-      "product-brand",
-      "sku-selector"
+      "product-brand"
     ]
   },
   "product-brand":{

@@ -48,15 +48,12 @@
   "product-brand":{
     "props":{
       "displayMode":"logo",
-      "height":30,
-      "hideImpossibleCombinations": "false",
-      "showValueNameForImageVariation": "true",
-      "showVariationsErrorMessage" : "true"
+      "height":30
     }
   },
   "sku-selector":{
     "props":{
-      "hideImpossibleCombinations": "false",
+      "initialSelection": "false",
       "showValueNameForImageVariation": "true",
       "showVariationsErrorMessage" : "true"
     }

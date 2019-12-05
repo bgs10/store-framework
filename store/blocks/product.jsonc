@@ -40,7 +40,7 @@
   },
   "stack-layout#brand": {
     "props":{
-      "displayMode":"logo ",
+      "displayMode":"logo",
       "height":30,
       "hideImpossibleCombinations":"false",
       "showValueNameForImageVariation": "true",

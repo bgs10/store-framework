@@ -16,9 +16,7 @@
       "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",
-      "search-fetch-more",
-      "flex-layout.col#left",
-      "flex-layout.col#right"
+      "search-fetch-more"      
     ],
     "props": {
       "pagination": "show-more"
@@ -27,7 +25,9 @@
   "flex-layout.row#results": {
     "children": [
       "flex-layout.col#filter",
-      "flex-layout.col#search"
+      "flex-layout.col#search",
+      "flex-layout.col#left",
+      "flex-layout.col#right"
     ]
   },
   

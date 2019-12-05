@@ -39,16 +39,18 @@
     }
   },
   "stack-layout#brand": {
-    "props":{
-      "displayMode":"logo",
-      "height":30,
-      "hideImpossibleCombinations":"false",
-      "showValueNameForImageVariation": "true",
-      "showVariationsErrorMessage" : "true"
-    },
     "children": [
       "product-images",
       "product-brand"
     ]
+  },
+  "product-brand":{
+    "props":{
+      "displayMode":"logo",
+      "height":30,
+      "hideImpossibleCombinations": "false",
+      "showValueNameForImageVariation": "true",
+      "showVariationsErrorMessage" : "true"
+    }
   }
 }

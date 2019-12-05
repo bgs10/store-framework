@@ -2,13 +2,13 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card",
       "info-card#button-right",
       "info-card#button-left"
     ]
   },
   "info-card#button-right": {
     "props": {
+      "id": "info-card",
       "isFullModeStyle": false,
       "textPosition": "right",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
@@ -22,6 +22,7 @@
   },
   "info-card#button-left": {
     "props": {
+      "id": "info-card",
       "isFullModeStyle": false,
       "textPosition": "left",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",

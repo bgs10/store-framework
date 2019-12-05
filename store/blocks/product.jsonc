@@ -41,7 +41,7 @@
   "stack-layout#brand": {
     "props":{
       "displayMode":"logo ",
-      "height":"30",
+      "height":30,
       "hideImpossibleCombinations":"false",
       "showValueNameForImageVariation": "true",
       "showVariationsErrorMessage" : "true"

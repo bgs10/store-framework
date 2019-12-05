@@ -41,13 +41,21 @@
   "stack-layout#brand": {
     "children": [
       "product-images",
-      "product-brand"
+      "product-brand",
+      "sku-selector"
     ]
   },
   "product-brand":{
     "props":{
       "displayMode":"logo",
       "height":30,
+      "hideImpossibleCombinations": "false",
+      "showValueNameForImageVariation": "true",
+      "showVariationsErrorMessage" : "true"
+    }
+  },
+  "sku-selector":{
+    "props":{
       "hideImpossibleCombinations": "false",
       "showValueNameForImageVariation": "true",
       "showVariationsErrorMessage" : "true"

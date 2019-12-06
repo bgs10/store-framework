@@ -75,7 +75,7 @@
     },
     "tab-content.item#home2":{
         "children":[
-            "rich-text#home2"
+            "iframe"
         ],
         "props": {
             "tabId": "electronics"
@@ -88,18 +88,18 @@
           "font": "t-heading-3"
         }
       },
-      "rich-text#home2": {
+    "rich-text#home2": {
         "props": {
           "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
           "textPosition": "CENTER",
           "font": "t-heading-3"
         }
       },
-      "iframe": {
+    "iframe": {
         "props": {
           "src": "https://www.instagram.com/p/B37Zfd6FobU/embed",
           "width": "800px",
           "height": "1000px"
         }
-      }
+    }
 }

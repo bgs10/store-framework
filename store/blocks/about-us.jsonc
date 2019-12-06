@@ -50,14 +50,14 @@
         "props":{
             "tabId":"majorAppliances",
             "defaultActiveTab": "true",
-            "text":"Major Appliances"
+            "label":"Major Appliances"
         }
     },
     "tab-list.item#home2":{
         "props":{
             "tabId":"electronics",
             "defaultActiveTab": "true",
-            "text":"Electronics"
+            "label":"Electronics"
         }
     },
     "tab-content#home":{

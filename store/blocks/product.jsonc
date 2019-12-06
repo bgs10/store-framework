@@ -3,8 +3,7 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
-      "shelf.relatedProducts",
-      "sku-selector"
+      "shelf.relatedProducts"      
     ]
   },
   "flex-layout.row#main": { 
@@ -28,6 +27,7 @@
     },  
     "children": [
       "product-name",
+      "sku-selector",
       "product-price",
       "buy-button"
     ]

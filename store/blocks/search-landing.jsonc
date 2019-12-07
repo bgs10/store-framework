@@ -1,12 +1,13 @@
 {
     "store.custom#landing":{
         "blocks":[
-            "image#landingbanner",
+            "image",
             "search-result-layout.customQuery"
         ]
     },
-    "image#landingbanner":{
+    "image":{
         "props":{
+            "src":"https://bshstore.vteximg.com.br/arquivos/ids/173988/BSH---banner-natal-2019.jpg",
             "minWidth":"100%"
         }
     },
